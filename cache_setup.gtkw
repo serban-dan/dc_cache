@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.127 (w)1999-2026 BSI
+[*] Fri Jun 12 14:32:27 2026
+[*]
+[dumpfile] "/home/dan/Documents/UPT/Sem_4/DC/project_cache/build/cache_waves.vcd"
+[dumpfile_mtime] "Fri Jun 12 14:29:28 2026"
+[dumpfile_size] 16602
+[savefile] "/home/dan/Documents/UPT/Sem_4/DC/project_cache/cache_setup.gtkw"
+[timestart] 0
+[size] 1920 1001
+[pos] -27 -24
+*-14.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_cache.
+[sst_width] 290
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 296
+@24
+tb_cache.uut_cache.clock
+@25
+tb_cache.uut_cache.current_state[2:0]
+@22
+tb_cache.uut_cache.caddress[20:0]
+@28
+tb_cache.uut_cache.rden
+tb_cache.uut_cache.wren
+tb_cache.uut_cache.hit
+@22
+tb_cache.uut_cache.cdout[31:0]
+@28
+tb_cache.uut_cache.cur_age_w0[1:0]
+tb_cache.uut_cache.cur_age_w1[1:0]
+tb_cache.uut_cache.cur_age_w2[1:0]
+tb_cache.uut_cache.cur_age_w3[1:0]
+tb_cache.uut_cache.valid_w0
+tb_cache.uut_cache.valid_w1
+tb_cache.uut_cache.valid_w2
+tb_cache.uut_cache.valid_w3
+[pattern_trace] 1
+[pattern_trace] 0
