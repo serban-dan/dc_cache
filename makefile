@@ -22,3 +22,4 @@ comprehensive:
 
 clean:
 	rm -rf build/*
+	rm tb/mem_data_final.txt
