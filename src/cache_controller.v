@@ -110,6 +110,8 @@ module cache_controller #(
         ({BLOCK_SIZE{hit_w2}} & data_w2) |
         ({BLOCK_SIZE{hit_w3}} & data_w3);
     
+    //For active_offset = 0, we want bits [31:0]
+    //Basically a mux
     assign cdout = hit_block_data[(active_offset * WORD_SIZE) +: WORD_SIZE];
 
     // Word Modification Logic for CPU Writes
